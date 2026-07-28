@@ -1,0 +1,12 @@
+.Content{
+    margin-top: 72px;;
+}
+main{
+    width: 95% !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+    padding: 20px !important;
+}

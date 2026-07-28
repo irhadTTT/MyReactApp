@@ -1,0 +1,43 @@
+.NavItem {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    color: white !important;
+}
+
+.NavItem a{
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.NavItem a:hover,
+.NavItem a:active,
+.NavItem a.active{
+    color: rgba(255,255,255,.5);;
+}
+@media (min-width: 500px){
+    .NavItem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    } 
+    .NavItem a{
+        color: white;
+        text-decoration: none;
+        height: 100%;
+        padding: 16px 10px;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavItem a:hover,
+    .NavItem a:active,
+    .NavItem a.active{
+        background-color: lightcoral;
+        border-color: 4px solid lightskyblue;
+        color: white;
+    }
+}

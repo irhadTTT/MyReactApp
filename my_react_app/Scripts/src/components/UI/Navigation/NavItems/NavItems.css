@@ -1,0 +1,24 @@
+.NavItems {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100%;
+}
+div.navbar-nav > ul > li > a{
+    color: white !important;
+}
+div.navbar-nav > ul > li{
+    margin-top: 18px;
+    margin-right: 40px;
+    font-size: 17px;
+}
+div.navbar-nav > ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+}
+@media(min-width:500px){
+    .NavItems {
+        flex-flow: row;
+    } 
+}
